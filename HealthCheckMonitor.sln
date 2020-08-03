@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.DemoService", "HealthCheckMonitor.DemoService\HealthChecks.DemoService.csproj", "{198AD621-80ED-44FA-962A-2ACDEC75F6D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.DataAccess", "HealthChecks.DataAccess\HealthChecks.DataAccess.csproj", "{5570DF55-5D83-4B2E-84C5-7BA6DE1110AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.StatusWorkerService", "HealthChecks.StatusWorkerService\HealthChecks.StatusWorkerService.csproj", "{EF2A727A-0AE8-4654-84CB-BF84AB26FA92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.Business", "HealthChecks.Business\HealthChecks.Business.csproj", "{CDAF0183-4FBC-4EF2-B6CB-047FAADFDEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.ClientService", "HealthChecks.ClientService\HealthChecks.ClientService.csproj", "{F708AA8C-FE45-448C-B22A-4C7072CD9326}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecks.Business.Test", "HealthChecks.Business.Test\HealthChecks.Business.Test.csproj", "{E36B17FD-853F-4FB5-A24E-4819E922A2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{198AD621-80ED-44FA-962A-2ACDEC75F6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{198AD621-80ED-44FA-962A-2ACDEC75F6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{198AD621-80ED-44FA-962A-2ACDEC75F6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{198AD621-80ED-44FA-962A-2ACDEC75F6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5570DF55-5D83-4B2E-84C5-7BA6DE1110AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5570DF55-5D83-4B2E-84C5-7BA6DE1110AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5570DF55-5D83-4B2E-84C5-7BA6DE1110AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5570DF55-5D83-4B2E-84C5-7BA6DE1110AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2A727A-0AE8-4654-84CB-BF84AB26FA92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2A727A-0AE8-4654-84CB-BF84AB26FA92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2A727A-0AE8-4654-84CB-BF84AB26FA92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2A727A-0AE8-4654-84CB-BF84AB26FA92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDAF0183-4FBC-4EF2-B6CB-047FAADFDEE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDAF0183-4FBC-4EF2-B6CB-047FAADFDEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDAF0183-4FBC-4EF2-B6CB-047FAADFDEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDAF0183-4FBC-4EF2-B6CB-047FAADFDEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F708AA8C-FE45-448C-B22A-4C7072CD9326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F708AA8C-FE45-448C-B22A-4C7072CD9326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F708AA8C-FE45-448C-B22A-4C7072CD9326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F708AA8C-FE45-448C-B22A-4C7072CD9326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E36B17FD-853F-4FB5-A24E-4819E922A2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E36B17FD-853F-4FB5-A24E-4819E922A2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E36B17FD-853F-4FB5-A24E-4819E922A2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E36B17FD-853F-4FB5-A24E-4819E922A2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47050F16-6FCC-4E9F-858C-881303EC0E5F}
+	EndGlobalSection
+EndGlobal

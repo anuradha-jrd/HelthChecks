@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "HealthChecks.StatusWorkerService": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

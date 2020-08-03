@@ -3,3 +3,9 @@
 ################################################################################
 
 /HealthCheckMonitor.DemoService/bin/Debug/netcoreapp3.1
+/HealthCheckMonitor.DemoService/obj
+/HealthChecks.Business/obj
+/HealthChecks.Business.Test/obj
+/HealthChecks.ClientService/obj
+/HealthChecks.DataAccess/obj
+/HealthChecks.StatusWorkerService/obj
